@@ -1,156 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Chivo' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@545&display=swap" rel="stylesheet">
     <link rel = 'stylesheet' href="styles.css">
-    <title> Ji Min Jang | Front End Developer </title>
+    <title> Ji Min Jang | Software Developer </title>
 </head>
 <body>
-    <div class="header">
+    <nav class="navbar" role="navigation" aria-label="main-menu">
+        <ul>
+            <li><a href="#" alt="Home" class="nav-home" >HOME</a> | </li>
+            <li><a href="#profile" alt="Profile" class="nav-profile">PROFILE</a> | </li>
+            <li><a href="#projects" alt="Projects" class="nav-projects">PROJECTS</a> | </li>
+            <li><a href="#contact" alt="Contact" class="nav-contact">CONTACT</a> </li>
+        </ul>
+    </nav>
+
+    <section class="welcome-page">
+        <div class="text-portfolio" id="item-P">P</div>
+        <div class="text-portfolio" id="item-O1">O</div>
+        <div class="text-portfolio" id="item-R">R</div>
+        <div class="text-portfolio" id="item-T">T</div>
+        <div class="text-portfolio" id="item-F">F</div>
+        <div class="text-portfolio" id="item-O2">O</div>
+        <div class="text-portfolio" id="item-L">L</div>
+        <div class="text-portfolio" id="item-I">I</div>
+        <div class="text-portfolio" id="item-O3">O</div>
+        <div class="text-jjm" id="item-J1">j</div> 
+        <div class="text-jjm" id="item-J2">j</div>
+        <div class="text-jjm" id="item-M">m</div>
         <div></div>
-        <div>
-            <p><a href="#AboutMe">ABOUT</a></p>
-        </div>
-        <div>
-            <p><a href="#MyProjects">PROJECTS</a></p>
-        </div>
-        <div>
-            <p><a href="#ContactMe">CONTACT</a></p>
-        </div>
-        <div>
-            <p><a href="/resources/_Ji Min_Jang.pdf" target="_blank" download="JiMin_Resume" style="color:#fdfd96; background-color: #ca96fd;">RESUME</a></p>
-        </div>
-    </div>
-
-    <div class="welcomePage">
-        <div class="welcomeText">
-            <h2><b style="color:#ca96fd;">HELLO, </b> I'M JIMIN JANG. </h2>
-            <div class="greenHighlight">
-                <svg width="250" height="25">
-                    <rect width="250" height="25" style="fill:rgb(202,253,150,0.5);"/>
-                </svg>
-            </div>
-            <h1>FRONT END DEVELOPER</h1>
-            <h3>I design and develop simple beautiful things and I love what I do.</h3>
-            <div class="greenHighlight">
-                <svg width="1189" height="25">
-                    <rect width="1189" height="25" style="fill:rgb(202,253,150,0.5);"/>
-                </svg>
-            </div>
-        </div>
-        <div id="selfSVG">
-            <img src="/resources/Self-01.svg">
-        </div>
-    </div>
-
-    <section class="aboutmeSection" id="AboutMe">
-        <div class="subTitles">
-            <h2>ABOUT ME</h2>
-            <br>
-            <p>I am a Front End Developer based in Auckland, New Zealand.</p>
-            <p>I am a Front End Developer based in Auckland, New Zealand.</p>
-            <p>I am a Front End Developer based in Auckland, New Zealand.</p>
-            <p>I am a Front End Developer based in Auckland, New Zealand.</p>
-            <br>
-        </div>
-        <div class="SkillGrid">
-            <div class="skillItem">
-                <h3>DEVELOP</h3>
-                <p>I like to code things and bring ideas to life.</p>
-                <br>
-                <h3>LANGUAGES</h3>
-                <p>C#, Javascript, HTML, CSS</p>
-                <br>
-                <h3>TOOLS AND LIBRARIES</h3>
-                <ul>
-                    <li> ReactJS</li>
-                    <li> HighchartJS</li>
-                    <li> Node.js</li>
-                    <li> Git/Github</li>
-                </ul>
-            </div>
-            <div class="skillItem">
-                <h3>DESIGN</h3>
-                <p>I value simple content structure and thoughtful interactions.</p>
-                <br>
-                <h3>THINGS I DESIGN</h3>
-                <p>UI/UX and Webistes</p>
-                <br>
-                <h3>TOOLS</h3>
-                <ul>
-                    <li> Illustrator</li>
-                    <li> Figma</li>
-                    <li> Wordpress/Wix</li>
-                    <li> Procreate</li>
-                </ul>
-            </div>
-        </div>
+        <div id="item-jiminjang"> <h1>jimin jang</h1> </div>
+        <div id="item-software-developer"> <h2>software developer</h2> </div>
     </section>
-    
-    <section class="projectSection" id="MyProjects">
-        <div class="subTitles">
-            <h2>PROJECTS</h2>
-        </div>
 
-        <div class="projectItem">
-            <div style="background-color:#519c90";><img src="/resources/maum_logo-01.png" id="ProjectOneImage"></div>
-            <div class="textGrid">
-                <h3>MAUMSALON</h3>  
-                <p>
-                    Maumsalon connects life coaches to you. <br>
-                    Our aim is for you to rediscover the love and confidence of who you are and the life you lead.
-                </p>
-                <br><br>
-                <p><a href="https://www.maumsalon.com" target="_blank">GO TO WEBSITE &nbsp > </a></p>
-            </div>
+    <section class="profile-page">
+        <div class="rightside-background"></div>
+        <div class="developer-text">
+            <ul>
+                <h1 id="text-developer">Developer</h1>
+                <li>C#</li>
+                <li>HTML</li>
+                <li>JavaScript</li>
+                <li>CSS</li>
+                <li>Git - Version Control</li>
+            </ul>
         </div>
-
-        <div class="projectItem">
-            <div class="textGrid">
-                <h3>MAUMSALON</h3>  
-                <p>
-                    Maumsalon connects life coaches to you. <br>
-                    Our aim is for you to rediscover the love and confidence of who you are and the life you lead.
-                </p>
-                <br><br>
-                <p><a href="https://www.maumsalon.com" target="_blank">GO TO WEBSITE &nbsp > </a></p>
-            </div>
-            <div style="background-color:#519c90";><img src="/resources/maum_logo-01.png" id="ProjectOneImage"></div>
-        </div>
-
-        <div class="projectItem">
-            <div style="background-color:#519c90";><img src="/resources/maum_logo-01.png" id="ProjectOneImage"></div>
-            <div class="textGrid">
-                <h3>MAUMSALON</h3>  
-                <p>
-                    Maumsalon connects life coaches to you. <br>
-                    Our aim is for you to rediscover the love and confidence of who you are and the life you lead.
-                </p>
-                <br><br>
-                <p><a href="https://www.maumsalon.com" target="_blank">GO TO WEBSITE &nbsp > </a></p>
-            </div>
+        <div class="designer-text">
+            <ul>
+                <h1 id="text-designer">Designer</h1>
+                <li>Figma</li>
+                <li>Procreate</li>
+                <li>Illustrator</li>
+                <li>User Expereince Design</li>
+            </ul>
         </div>
     </section>
 
-    <section class="ContactSection" id="ContactMe">
-        <div class="subTitles">
-            <h2>CONTACT</h2>
-        </div>
-
-        <br><br>
-
-        <p><b>Say Hello at</b></p>
-        <h3><a href="mailto:jiminjang96@gmail.com">jiminjang96@gmail.com</a></h3>
-        <div class="greenHighlight">
-            <svg width="480" height="20">
-                <rect width="480" height="20" style="fill:rgb(202,253,150,0.5);"/>
-            </svg>
-        </div>
+    <section class="project-page">
+        <div class="project-one"></div>
+        <div class="project-two"></div>
     </section>
 
+    <section class="about-me-page">
+        <h2>About</h2>
+        <p>I design and develop small and beautiful things that tell a story.</p>
+        <p>The focus is equity, inclusivity and humility to the unseen.</p>
+    </section>
+
+    <section class="contact-me">
+        <h2>Contact</h2>
+        <form class="contact-form">
+            <label>
+                Name
+                <br><input name="name" type="text"><br>
+            </label>
+            <label>
+                Email
+                <br><input name="email_address" type="email"><br>
+            </label>
+            <label>
+                Message
+                <br><textarea cols="50" rows="10"></textarea><br>
+            </label>
+            <br><button> Get in Touch </button><br>
+        </form>
+    </section>
 </body>
 </html>
